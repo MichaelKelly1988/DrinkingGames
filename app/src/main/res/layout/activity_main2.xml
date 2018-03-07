@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/table"
+    tools:context="com.studio.mick.drinkinggame.Main2Activity">
+
+    <ImageView
+        android:id="@+id/imb1"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/back_card"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:paddingTop="5dp"
+        android:scaleType="fitCenter"
+        tools:ignore="ContentDescription"
+        android:clickable="true"
+        android:layout_marginBottom="14dp"
+        android:layout_above="@+id/imgRandom"
+        android:layout_alignRight="@+id/imgRandom"
+        android:layout_alignEnd="@+id/imgRandom"
+        android:layout_marginRight="43dp"
+        android:layout_marginEnd="43dp" />
+
+    <ImageView
+        android:id="@+id/imgRandom"
+        android:layout_width="90dp"
+        android:layout_height="130dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/ib2"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/back_card"
+        android:rotation="10"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:paddingTop="5dp"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:layout_alignTop="@+id/imb1"
+        android:layout_alignLeft="@+id/imb1"
+        android:layout_alignStart="@+id/imb1"
+        android:clickable="true"/>
+
+    <ImageView
+        android:id="@+id/ib3"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/back_card"
+        android:rotation="20"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:paddingTop="5dp"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:clickable="true"
+        android:layout_alignTop="@+id/imb1"
+        android:layout_alignLeft="@+id/ib2"
+        android:layout_alignStart="@+id/ib2" />
+
+    <ImageView
+        android:id="@+id/ib4"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/back_card"
+        android:rotation="30"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:paddingTop="5dp"
+        android:scaleType="fitCenter"
+        android:clickable="true"
+        android:layout_marginTop="16dp"
+        android:layout_alignTop="@+id/ib2"
+        android:layout_toEndOf="@+id/ib2"
+        android:layout_toRightOf="@+id/ib2" />
+
+    <ImageView
+        android:id="@+id/ib5"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/back_card"
+        android:rotation="40"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:paddingTop="5dp"
+        android:scaleType="fitCenter"
+        android:clickable="true"
+        android:layout_marginTop="15dp"
+        android:layout_alignTop="@+id/ib4"
+        android:layout_toRightOf="@+id/imgRandom"
+        android:layout_toEndOf="@+id/imgRandom" />
+
+    <ImageView
+        android:id="@+id/ib6"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/back_card"
+        android:rotation="50"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:paddingTop="5dp"
+        android:scaleType="fitCenter"
+        android:clickable="true"
+        android:layout_marginTop="19dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_alignTop="@+id/ib5"
+        android:layout_toRightOf="@+id/imgRandom"
+        android:layout_toEndOf="@+id/imgRandom" />
+
+    <ImageView
+        android:id="@+id/ib7"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/back_card"
+        android:rotation="60"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:paddingTop="5dp"
+        android:scaleType="fitCenter"
+        android:clickable="true"
+        android:layout_marginTop="17dp"
+        android:layout_alignTop="@+id/ib6"
+        android:layout_toRightOf="@+id/ib4"
+        android:layout_toEndOf="@+id/ib4" />
+
+    <ImageView
+        android:id="@+id/ib8"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/back_card"
+        android:rotation="70"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:paddingTop="5dp"
+        android:scaleType="fitCenter"
+        android:clickable="true"
+        android:layout_below="@+id/ib3"
+        android:layout_toRightOf="@+id/ib4"
+        android:layout_toEndOf="@+id/ib4" />
+
+    <ImageView
+        android:id="@+id/ib9"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/back_card"
+        android:rotation="80"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:paddingTop="5dp"
+        android:scaleType="fitCenter"
+        android:clickable="true"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/ib7"
+        android:layout_alignStart="@+id/ib7" />
+
+    <ImageView
+        android:id="@+id/ib10"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/back_card"
+        android:rotation="90"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:paddingTop="5dp"
+        android:scaleType="fitCenter"
+        android:clickable="true"
+        android:layout_alignBottom="@+id/imgRandom"
+        android:layout_alignLeft="@+id/ib7"
+        android:layout_alignStart="@+id/ib7" />
+
+    <ImageView
+        android:id="@+id/ib11"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/back_card"
+        android:rotation="100"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:paddingTop="5dp"
+        android:scaleType="fitCenter"
+        android:clickable="true"
+        android:layout_below="@+id/ib7"
+        android:layout_alignLeft="@+id/ib8"
+        android:layout_alignStart="@+id/ib8" />
+
+    <ImageView
+        android:id="@+id/ib12"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/back_card"
+        android:rotation="110"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:paddingTop="5dp"
+        android:scaleType="fitCenter"
+        android:clickable="true"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/ib7"
+        android:layout_alignLeft="@+id/ib8"
+        android:layout_alignStart="@+id/ib8" />
+
+    <ImageView
+        android:id="@+id/ib13"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/back_card"
+        android:rotation="120"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:paddingTop="5dp"
+        android:scaleType="fitCenter"
+        android:clickable="true"
+        android:layout_below="@+id/ib8"
+        android:layout_alignLeft="@+id/ib9"
+        android:layout_alignStart="@+id/ib9" />
+
+    <ImageView
+        android:id="@+id/ib14"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/back_card"
+        android:rotation="130"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:paddingTop="5dp"
+        android:scaleType="fitCenter"
+        android:clickable="true"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/ib8"
+        android:layout_alignLeft="@+id/ib9"
+        android:layout_alignStart="@+id/ib9" />
+
+    <ImageView
+        android:id="@+id/ib15"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/back_card"
+        android:rotation="140"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:paddingTop="5dp"
+        android:scaleType="fitCenter"
+        android:clickable="true"
+        android:layout_below="@+id/ib9"
+        android:layout_alignLeft="@+id/ib6"
+        android:layout_alignStart="@+id/ib6" />
+
+    <ImageView
+        android:id="@+id/ib16"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/back_card"
+        android:rotation="150"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:paddingTop="5dp"
+        android:scaleType="fitCenter"
+        android:clickable="true"
+        android:layout_below="@+id/ib10"
+        android:layout_toRightOf="@+id/imgRandom"
+        android:layout_toEndOf="@+id/imgRandom" />
+
+    <ImageView
+        android:id="@+id/ib17"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/back_card"
+        android:rotation="160"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:paddingTop="5dp"
+        android:scaleType="fitCenter"
+        android:clickable="true"
+        android:layout_below="@+id/imgRandom"
+        android:layout_toRightOf="@+id/ib3"
+        android:layout_toEndOf="@+id/ib3"
+        android:layout_marginTop="12dp" />
+
+    <ImageView
+        android:id="@+id/ib18"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/back_card"
+        android:rotation="170"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:paddingTop="5dp"
+        android:scaleType="fitCenter"
+        android:clickable="true"
+        android:layout_below="@+id/ib11"
+        android:layout_toLeftOf="@+id/ib13"
+        android:layout_toStartOf="@+id/ib13" />
+
+    <ImageView
+        android:id="@+id/ib19"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/back_card"
+        android:rotation="180"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:paddingTop="5dp"
+        android:scaleType="fitCenter"
+        android:clickable="true"
+        android:layout_alignTop="@+id/ib18"
+        android:layout_toLeftOf="@+id/ib16"
+        android:layout_toStartOf="@+id/ib16" />
+
+    <ImageView
+        android:id="@+id/ib20"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/back_card"
+        android:rotation="190"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:paddingTop="5dp"
+        android:scaleType="fitCenter"
+        android:clickable="true"
+        android:layout_alignTop="@+id/ib18"
+        android:layout_toLeftOf="@+id/ib4"
+        android:layout_toStartOf="@+id/ib4" />
+
+    <ImageView
+        android:id="@+id/ib21"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/back_card"
+        android:rotation="200"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:paddingTop="5dp"
+        android:scaleType="fitCenter"
+        android:clickable="true"
+        android:layout_alignTop="@+id/ib19"
+        android:layout_alignLeft="@+id/imb1"
+        android:layout_alignStart="@+id/imb1" />
+
+    <ImageView
+        android:id="@+id/ib22"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/back_card"
+        android:rotation="210"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:paddingTop="5dp"
+        android:scaleType="fitCenter"
+        android:clickable="true"
+        android:layout_alignTop="@+id/ib19"
+        android:layout_toLeftOf="@+id/ib19"
+        android:layout_toStartOf="@+id/ib19" />
+
+    <ImageView
+        android:id="@+id/ib23"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/back_card"
+        android:rotation="220"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:paddingTop="5dp"
+        android:scaleType="fitCenter"
+        android:clickable="true"
+        android:layout_alignTop="@+id/ib17"
+        android:layout_toLeftOf="@+id/ib20"
+        android:layout_toStartOf="@+id/ib20" />
+
+    <ImageView
+        android:id="@+id/ib24"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/back_card"
+        android:rotation="230"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:paddingTop="5dp"
+        android:scaleType="fitCenter"
+        android:clickable="true"
+        android:layout_below="@+id/imgRandom"
+        android:layout_toLeftOf="@+id/ib21"
+        android:layout_toStartOf="@+id/ib21" />
+
+    <ImageView
+        android:id="@+id/ib25"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/back_card"
+        android:rotation="240"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:paddingTop="5dp"
+        android:scaleType="fitCenter"
+        android:clickable="true"
+        android:layout_alignTop="@+id/ib15"
+        android:layout_toLeftOf="@+id/ib22"
+        android:layout_toStartOf="@+id/ib22"
+        android:layout_marginRight="13dp"
+        android:layout_marginEnd="13dp" />
+
+    <ImageView
+        android:id="@+id/ib26"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/back_card"
+        android:rotation="250"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:paddingTop="5dp"
+        android:scaleType="fitCenter"
+        android:clickable="true"
+        android:layout_below="@+id/ib8"
+        android:layout_alignLeft="@+id/ib25"
+        android:layout_alignStart="@+id/ib25" />
+
+    <ImageView
+        android:id="@+id/ib27"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/back_card"
+        android:rotation="260"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:paddingTop="5dp"
+        android:scaleType="fitCenter"
+        android:clickable="true"
+        android:layout_alignTop="@+id/ib12"
+        android:layout_toLeftOf="@+id/ib23"
+        android:layout_toStartOf="@+id/ib23" />
+
+    <ImageView
+        android:id="@+id/ib28"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/back_card"
+        android:rotation="270"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:paddingTop="5dp"
+        android:scaleType="fitCenter"
+        android:clickable="true"
+        android:layout_above="@+id/ib22"
+        android:layout_alignLeft="@+id/ib27"
+        android:layout_alignStart="@+id/ib27" />
+
+    <ImageView
+        android:id="@+id/ib29"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/back_card"
+        android:rotation="280"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:paddingTop="5dp"
+        android:scaleType="fitCenter"
+        android:clickable="true"
+        android:layout_below="@+id/ib6"
+        android:layout_alignLeft="@+id/ib27"
+        android:layout_alignStart="@+id/ib27" />
+
+    <ImageView
+        android:id="@+id/ib30"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/back_card"
+        android:rotation="290"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:paddingTop="5dp"
+        android:scaleType="fitCenter"
+        android:clickable="true"
+        android:layout_below="@+id/ib5"
+        android:layout_alignLeft="@+id/ib27"
+        android:layout_alignStart="@+id/ib27" />
+
+    <ImageView
+        android:id="@+id/ib31"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/back_card"
+        android:rotation="300"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:paddingTop="5dp"
+        android:scaleType="fitCenter"
+        android:clickable="true"
+        android:layout_alignTop="@+id/imgRandom"
+        android:layout_alignLeft="@+id/ib27"
+        android:layout_alignStart="@+id/ib27" />
+
+    <ImageView
+        android:id="@+id/ib32"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/back_card"
+        android:rotation="310"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:paddingTop="5dp"
+        android:scaleType="fitCenter"
+        android:clickable="true"
+        android:layout_above="@+id/ib14"
+        android:layout_alignLeft="@+id/ib27"
+        android:layout_alignStart="@+id/ib27" />
+
+    <ImageView
+        android:id="@+id/ib33"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/back_card"
+        android:rotation="320"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:paddingTop="5dp"
+        android:scaleType="fitCenter"
+        android:clickable="true"
+        android:layout_above="@+id/ib27"
+        android:layout_alignLeft="@+id/ib28"
+        android:layout_alignStart="@+id/ib28" />
+
+    <ImageView
+        android:id="@+id/ib34"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/back_card"
+        android:rotation="330"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:paddingTop="5dp"
+        android:scaleType="fitCenter"
+        android:clickable="true"
+        android:layout_above="@+id/ib29"
+        android:layout_alignLeft="@+id/ib26"
+        android:layout_alignStart="@+id/ib26" />
+
+    <ImageView
+        android:id="@+id/ib35"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/back_card"
+        android:rotation="340"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:paddingTop="5dp"
+        android:scaleType="fitCenter"
+        android:clickable="true"
+        android:layout_above="@+id/ib30"
+        android:layout_toLeftOf="@+id/ib22"
+        android:layout_toStartOf="@+id/ib22" />
+
+    <ImageView
+        android:id="@+id/ib36"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/back_card"
+        android:rotation="350"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:paddingTop="5dp"
+        android:scaleType="fitCenter"
+        android:clickable="true"
+        android:layout_above="@+id/imgRandom"
+        android:layout_toLeftOf="@+id/ib21"
+        android:layout_toStartOf="@+id/ib21" />
+
+    <ImageView
+        android:id="@+id/ib37"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/back_card"
+        android:rotation="360"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:paddingTop="5dp"
+        android:scaleType="fitCenter"
+        android:clickable="true"
+        android:layout_alignTop="@+id/imb1"
+        android:layout_toRightOf="@+id/ib33"
+        android:layout_toEndOf="@+id/ib33" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kings"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/imb1"
+        android:layout_alignStart="@+id/imb1" />
+
+
+
+
+
+</RelativeLayout>

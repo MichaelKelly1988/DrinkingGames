@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Drinking Game</string>
+    <string name="title_activity_drink">Spin The Beer</string>
+
+    <string name="action_settings">Rules</string>
+
+    <string name="interstitial_ad_sample">Interstitial Ad Sample</string>
+    <string name="start_level">Reset</string>
+    <string name="next_level">Spin</string>
+    <!-- -
+        This is an ad unit ID for an interstitial test ad. Replace with your own interstitial ad unit id.
+        For more information, see https://support.google.com/admob/answer/3052638
+    <!- -->
+    <string name="interstitial_ad_unit_id">ca-app-pub-8221778775483224/9612553720</string>
+
+    <string-array name="anwsers">
+        <item>Photographer</item>
+        <item>The Macaulay Culkin </item>
+        <item>Mr President</item>
+        <item>No Teeth</item>
+        <item>Viking Rule</item>
+        <item>Ke$ha Rule</item>
+        <item>The Narcissus Rule</item>
+        <item>Swear to Me</item>
+        <item>One Mouth Move\nup and Down Rule</item>
+        <item>Floor is Lava </item>
+        <item>The Kanye Rule</item>
+        <item>The Classic</item>
+    </string-array>
+
+    <string name="shake_me">Shake Me</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>
